@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Orbit GT — Green Auto</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="brand">
+      <img src="/imgs/logo.png" alt="Green Auto" style="width:38px;height:38px;border-radius:50%;object-fit:cover;" />
+      <span class="brand-name"><span>GREEN</span> AUTO</span>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html#cars">Каталог</a>
+      <a href="index.html#how">Как это работает</a>
+      <a href="index.html#contact">Контакты</a>
+      <a href="index.html#contact" class="nav-cta">Оставить заявку</a>
+    </nav>
+  </div>
+</header>
+
+<div class="container crumb">
+  <a href="index.html">Главная</a>
+  <span class="sep">/</span>
+  <a href="index.html#cars">Каталог</a>
+  <span class="sep">/</span>
+  <span style="color:var(--text);">Orbit GT</span>
+</div>
+
+<section class="car-hero">
+  <div class="container">
+
+    <div class="car-hero-head">
+      <div>
+        <div class="meta">
+          <span class="chip green">GT COUPE</span>
+          <span class="chip">DUAL MOTOR · 800V</span>
+          <span class="chip">2025</span>
+        </div>
+        <h1>Orbit <span class="accent">GT</span></h1>
+      </div>
+      <div class="price-block">
+        <div class="lbl">Цена под заказ, от</div>
+        <div class="val">7 220 000 KGS</div>
+        <div class="term">Срок поставки 30–45 дней</div>
+      </div>
+    </div>
+
+    <div class="car-stage" id="mainStage">
+      <div class="placeholder-stripes" style="position:absolute;inset:0;"></div>
+      <img src="/imgs/car_bg.png" alt="Автомобиль" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;mix-blend-mode:luminosity;opacity:0.55;" />
+      <div class="stage-meter">
+        <div class="item">
+          <div class="k">Battery</div>
+          <div class="v">93 <span>кВт·ч</span></div>
+        </div>
+        <div class="item">
+          <div class="k">Range</div>
+          <div class="v">610 <span>км</span></div>
+        </div>
+        <div class="item">
+          <div class="k">0–100</div>
+          <div class="v">2.8 <span>с</span></div>
+        </div>
+      </div>
+      <div class="label" id="stageLabel">orbit-gt · main view</div>
+    </div>
+
+    <div class="thumb-row">
+      <button class="detail-thumb active" data-view="3/4 front">
+        <div class="placeholder-stripes"></div>
+        <span class="lbl">3/4 front</span>
+      </button>
+      <button class="detail-thumb" data-view="side">
+        <div class="placeholder-stripes"></div>
+        <span class="lbl">side</span>
+      </button>
+      <button class="detail-thumb" data-view="rear">
+        <div class="placeholder-stripes"></div>
+        <span class="lbl">rear</span>
+      </button>
+      <button class="detail-thumb" data-view="interior">
+        <div class="placeholder-stripes"></div>
+        <span class="lbl">interior</span>
+      </button>
+    </div>
+
+    <div class="key-stats">
+      <div class="cell">
+        <div class="k">Запас хода</div>
+        <div class="v">610<span>км</span></div>
+      </div>
+      <div class="cell">
+        <div class="k">Разгон 0–100</div>
+        <div class="v">2.8<span>с</span></div>
+      </div>
+      <div class="cell">
+        <div class="k">Батарея</div>
+        <div class="v">93<span>кВт·ч</span></div>
+      </div>
+      <div class="cell">
+        <div class="k">Мощность</div>
+        <div class="v">625<span>л.с.</span></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="car-content">
+  <div class="container car-content-grid">
+    <div>
+      <h2>О <span class="accent">Orbit GT.</span></h2>
+      <p class="lead">Электрическое купе на платформе 800V. Карбоновый кузов, подруливающие задние колёса и ультрабыстрая зарядка.</p>
+      <p style="color:var(--text-muted);font-size:15px;line-height:1.65;margin:0 0 36px;">Orbit GT — флагман с архитектурой 800V и зарядкой до 350 кВт. Карбоновые кузовные панели, подруливающие задние колёса, режим трека с распределением момента и активным охлаждением батареи.</p>
+
+      <h2 style="margin-top:8px;">Характеристики</h2>
+      <div class="specs-long">
+        
+        <div class="row">
+          <span class="k">Кузов</span>
+          <span class="v">Купе</span>
+        </div>
+        <div class="row">
+          <span class="k">Год выпуска</span>
+          <span class="v">2025</span>
+        </div>
+        <div class="row">
+          <span class="k">Мест</span>
+          <span class="v">4</span>
+        </div>
+        <div class="row">
+          <span class="k">Привод</span>
+          <span class="v">AWD</span>
+        </div>
+        <div class="row">
+          <span class="k">Запас хода (WLTP)</span>
+          <span class="v">610 км</span>
+        </div>
+        <div class="row">
+          <span class="k">Разгон 0–100 км/ч</span>
+          <span class="v">2.8 с</span>
+        </div>
+        <div class="row">
+          <span class="k">Максимальная скорость</span>
+          <span class="v">270 км/ч</span>
+        </div>
+        <div class="row">
+          <span class="k">Мощность</span>
+          <span class="v">625 л.с.</span>
+        </div>
+        <div class="row">
+          <span class="k">Батарея</span>
+          <span class="v">93 кВт·ч</span>
+        </div>
+        <div class="row">
+          <span class="k">Зарядка DC, мощность</span>
+          <span class="v">350 кВт</span>
+        </div>
+        <div class="row">
+          <span class="k">Время зарядки</span>
+          <span class="v">15 мин (10→80%)</span>
+        </div>
+        <div class="row">
+          <span class="k">Снаряжённая масса</span>
+          <span class="v">2 050 кг</span>
+        </div>
+        <div class="row">
+          <span class="k">Объём багажника</span>
+          <span class="v">370 л</span>
+        </div>
+        <div class="row">
+          <span class="k">Цвет</span>
+          <span class="v">Carbon Mint</span>
+        </div>
+      </div>
+
+      <h2 style="margin-top:56px;">Особенности</h2>
+      <div class="detail-features" style="margin-top:18px;">
+        
+        <div class="feature">
+          <div class="ico">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/></svg>
+          </div>
+          <h4>800V</h4>
+          <p>Зарядка до 80% за 15 минут.</p>
+        </div>
+        <div class="feature">
+          <div class="ico">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="2" fill="none"/><path d="M12 8v4l3 2" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h4>Rear Steer</h4>
+          <p>Подруливающие задние колёса.</p>
+        </div>
+        <div class="feature">
+          <div class="ico">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 12l4-7h8l4 7-4 7H8z" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+          </div>
+          <h4>Carbon</h4>
+          <p>Карбоновые кузовные панели.</p>
+        </div>
+        <div class="feature">
+          <div class="ico">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M3 12c0-3 3-5 6-5s6 2 6 5-3 5-6 5-6-2-6-5z" stroke="currentColor" stroke-width="2" fill="none"/><circle cx="9" cy="12" r="1.5" fill="currentColor"/></svg>
+          </div>
+          <h4>Track Mode</h4>
+          <p>Режим трека с активным охлаждением.</p>
+        </div>
+      </div>
+    </div>
+
+    <aside>
+      <div class="order-card">
+        <div class="lbl">Цена под заказ</div>
+        <div class="price"><span class="from">от</span>7 220 000 KGS</div>
+        <div class="term"><span class="pulse"></span>Поставка 30–45 дней</div>
+
+        <div class="divider"></div>
+
+        <div class="mini-row"><span class="k">Сегмент</span><span class="v">GT COUPE</span></div>
+        <div class="mini-row"><span class="k">Привод</span><span class="v">AWD</span></div>
+        <div class="mini-row"><span class="k">Зарядка DC</span><span class="v">350 кВт</span></div>
+        <div class="mini-row"><span class="k">Цвет</span><span class="v">Carbon Mint</span></div>
+
+        <div class="actions">
+          <a href="index.html#contact" class="btn btn-primary">
+            Оставить заявку
+            <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+          <a href="tel:+996999155555" class="btn btn-ghost">Позвонить</a>
+        </div>
+
+        <p class="note">Менеджер свяжется в течение часа<br/>и зафиксирует финальную цену.</p>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="related">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="kicker">ещё в каталоге</div>
+        <h2>Похожие <span class="accent">модели.</span></h2>
+      </div>
+    </div>
+    <div class="cars-grid">
+      
+      <a href="aurora-s.html" class="car-card">
+        <div class="car-media">
+          <div class="placeholder-stripes"></div>
+          <img src="/imgs/car_bg.png" alt="Автомобиль" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;mix-blend-mode:luminosity;opacity:0.55;" />
+          <span class="badge">SEDAN</span>
+          <span class="label">aurora-s · 2025</span>
+        </div>
+        <div class="car-body">
+          <div class="car-title-row">
+            <div>
+              <div class="car-title">Aurora S</div>
+              <div class="car-sub">LONG RANGE · AWD</div>
+            </div>
+          </div>
+          <div class="car-specs">
+            <div><div class="k">Запас хода</div><div class="v">580 км</div></div>
+            <div><div class="k">0–100</div><div class="v">3.4 с</div></div>
+            <div><div class="k">Батарея</div><div class="v">82 кВт·ч</div></div>
+          </div>
+          <div class="car-foot">
+            <div class="car-price"><span class="from">от</span>4 980 000 KGS</div>
+            <span class="car-link">Подробнее
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            </span>
+          </div>
+        </div>
+      </a>
+      <a href="volta-x.html" class="car-card">
+        <div class="car-media">
+          <div class="placeholder-stripes"></div>
+          <img src="/imgs/car_bg.png" alt="Автомобиль" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;mix-blend-mode:luminosity;opacity:0.55;" />
+          <span class="badge">SUV</span>
+          <span class="label">volta-x · 2025</span>
+        </div>
+        <div class="car-body">
+          <div class="car-title-row">
+            <div>
+              <div class="car-title">Volta X</div>
+              <div class="car-sub">PERFORMANCE · 7 МЕСТ</div>
+            </div>
+          </div>
+          <div class="car-specs">
+            <div><div class="k">Запас хода</div><div class="v">540 км</div></div>
+            <div><div class="k">0–100</div><div class="v">3.9 с</div></div>
+            <div><div class="k">Батарея</div><div class="v">100 кВт·ч</div></div>
+          </div>
+          <div class="car-foot">
+            <div class="car-price"><span class="from">от</span>5 740 000 KGS</div>
+            <span class="car-link">Подробнее
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            </span>
+          </div>
+        </div>
+      </a>
+      <a href="lumen-c.html" class="car-card">
+        <div class="car-media">
+          <div class="placeholder-stripes"></div>
+          <img src="/imgs/car_bg.png" alt="Автомобиль" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;mix-blend-mode:luminosity;opacity:0.55;" />
+          <span class="badge">CROSSOVER</span>
+          <span class="label">lumen-c · 2025</span>
+        </div>
+        <div class="car-body">
+          <div class="car-title-row">
+            <div>
+              <div class="car-title">Lumen C</div>
+              <div class="car-sub">CITY · COMPACT</div>
+            </div>
+          </div>
+          <div class="car-specs">
+            <div><div class="k">Запас хода</div><div class="v">420 км</div></div>
+            <div><div class="k">0–100</div><div class="v">7.2 с</div></div>
+            <div><div class="k">Батарея</div><div class="v">62 кВт·ч</div></div>
+          </div>
+          <div class="car-foot">
+            <div class="car-price"><span class="from">от</span>2 890 000 KGS</div>
+            <span class="car-link">Подробнее
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            </span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="brand">
+          <img src="/imgs/logo.png" alt="Green Auto" style="width:36px;height:36px;border-radius:50%;object-fit:cover;" />
+          <span class="brand-name"><span>GREEN</span> AUTO</span>
+        </a>
+        <p class="footer-tag">Импорт электромобилей под ключ. Прозрачные цены и сервис в одной точке.</p>
+      </div>
+      <div>
+        <h4>Компания</h4>
+        <ul>
+          <li><a href="index.html#how">Как мы работаем</a></li>
+          <li><a href="index.html#contact">Контакты</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Связь</h4>
+        <ul>
+          <li><a href="tel:+996999155555">+996 999 155 555</a></li>
+          <li><a href="mailto:hello@greenauto.kg">hello@greenauto.kg</a></li>
+          <li>ул. Медерова 103</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 GREEN AUTO. ВСЕ ПРАВА ЗАЩИЩЕНЫ.</span>
+      <span>Developed by <a href="https://t.me/azret_ka" target="_blank" style="color:var(--text-muted);text-decoration:none;transition:color .15s;" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--text-muted)'">Azret Karagulov</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const thumbs = document.querySelectorAll('.detail-thumb');
+  const stageLabel = document.getElementById('stageLabel');
+  thumbs.forEach(t => {
+    t.addEventListener('click', () => {
+      thumbs.forEach(x => x.classList.remove('active'));
+      t.classList.add('active');
+      stageLabel.textContent = 'orbit-gt · ' + t.dataset.view;
+    });
+  });
+</script>
+
+<script src="./script.js"></script>
+</body>
+</html>
